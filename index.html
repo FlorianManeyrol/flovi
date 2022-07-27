@@ -5,18 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/output.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Flovi nuisibles</title>
   </head>
   <body>
-    <nav class="flex">
-      <img src="./assets/logo.svg" height="28" />
-      <ul class="inline-flex">
-        <li>Prestations</li>
-        <li>Expertise</li>
-        <li>Contact</li>
-      </ul>
+    <nav class="border-b">
+      <div class="container mx-auto p-4">
+        <div class="flex justify-between items-center">
+          <a href="./" class="h-10">
+            <img src="./assets/logo.svg" class="h-full" />
+          </a>
+
+          <ul class="inline-flex">
+            <li class="mr-3">Prestations</li>
+            <li class="mr-3">
+              <a href="./src/pages/skills.html">Expertise</a>
+            </li>
+            <li class="mr-3">Contact</li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <section>Hello and welcome on board !</section>
+    <section>
+      <div class="flex justify-center items-center h-80">
+        <div class="text-center">
+          <div>Dératisation, Désinsectisation, Dépigeonnage, Désinfection</div>
+          <button class="bg-green-400 rounded-lg p-4">Contactez-nous</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
