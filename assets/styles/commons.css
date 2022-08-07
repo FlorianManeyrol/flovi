@@ -22,7 +22,13 @@
 	font-weight: 500;
 }
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../font/Gilroy-Light.otf") format("otf");
+	font-weight: 300;
+}
+
+
 body {
 	font-family: 'Gilroy';
-	font-weight: 500;
 }
