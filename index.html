@@ -28,19 +28,59 @@
     </nav>
 
     <section class="bg-black">
-      <div class="flex justify-center items-center">
-        <div class="text-center my-40">
-          <h1 class="font-extrabold text-5xl mb-6 text-white">
-            Dératisation, Désinsectisation, Dépigeonnage, Désinfection.
-          </h1>
-          <h2 class="text-white text-2xl font-medium my-11">
-            Expert en solutions de controle et de lutte contre la prolifération
-            des
-            <strong>nuisibles.</strong>
-          </h2>
-          <button class="bg-green-400 rounded-lg p-4 font-semibold text-lg">
-            Contactez-nous
-          </button>
+      <div class="container mx-auto">
+        <div
+          class="flex items-center my-20"
+          style="
+            background: url('./assets/expert2.png') no-repeat;
+            background-size: 450px;
+            background-position-x: 85%;
+          "
+        >
+          <div class="w-1/2" style="margin-left: 10%">
+            <h1 class="font-extrabold text-5xl mb-6 text-white">
+              Dératisation, Désinsectisation, Dépigeonnage, Désinfection.
+            </h1>
+            <h2 class="text-white text-2xl font-medium my-11">
+              Expert en solutions de contrôle et de lutte contre la
+              prolifération des
+              <strong>nuisibles.</strong>
+            </h2>
+            <button class="bg-green-400 rounded-lg p-4 font-semibold text-lg">
+              Contactez-nous
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div
+        class="grid grid-cols-12 p-10 text-md gap-4 text-center font-semibold text-lg"
+      >
+        <div class="col-span-2 col-start-3">
+          <img
+            src="data:image/png;base64,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"
+            class="mx-auto mb-2"
+          />
+          Rats ou souris
+        </div>
+        <div class="col-span-2">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFPklEQVRoge2ZXWxUVRDHf/3Q2oY20TZRaCGBRCmYKoltiEg0DX4kRdNGfBE0waCmykdUEh94MBITJFV5t9Eoivog1heiUQsltSHY0BKjgF8gIrRUC2qh2Abb9WH+h3NZ7t7ubtktmv0nN3vOnJk5c+fMnTPnLOSQQw45pIguoBeYmwTvXKAH+DSjFqWJL4EYMATcHcF3j3hiQEcW7EoZ04CPMQNHCH+Ze4FR8bRJZkqRh4XGN8CiAL0AeAsz9DTwGPA1sF/tPzT2JpAfkFsEHAD2ZtrwMOyTUWPAa0Cx6AVY7McSPJ/gX6JYsmMa686S7RehGNgSMGIPtlIAy0Q7C6wCHgeGRVsmnjzJOGdswTsjLTQBJ7G4/g04DHQCrcCzwJ1AUYT8YmBABtWKtlP95gDf06K1q1+r/oB0JEIRcJdsaZVth2XriGxvAjhO4jBwzzkZ9wxQGTJZi/g2qz+o/g0Bnumi/a7+ZvVbQvRVyfCdmnsi+35FbxYDqjXZfHlgjTzQgw8fFwYdwIP4WK/TWD9QH3BOPRYuxWrHgBPYKverXycd+dLZETffP9j32Aqslm3zZOs8/KqyS53VIZ5xqACWA+/jYz0G/ASsBUqxJXf0URJ7729gXO1Oya7DwsXxDAPvAQ8D5RF2rRX/ToAn1DkIFEYIOZRJZn9g4tPABuDFuBdN9AyLd4NkHb0XSwxlSdhRCByS3Cowj/SJsCYJBQ55wAPAVwFDfsTvI0PAk9hqVqjtdvS3sdV0cnuB+/FZLxmsw4fqhY31EXy6vDUFZQ73Yd9S0OvNIXxPxfHsw0qWVLEAv/LLgwN5WEzGgJ+B2WkoL8Bi1sX/9BCeGRobx1a/II15ZsvGGLAtjKEYW2KXfWrDmJLAWekI+0jL8SufDurw2W4vERtoKfCFGM8Dr4qWCnol3xAy1qCxnhR1lmKlzHnJf56MXVdj5YITGgK2Yh/2TGynLQKuA+YANVjRtwJ4AZ9J9nBxYZiPL0kOiXeFZGuk69qA/pma8x3gDBc796pUvLAA2M3EqTTq2Y59FzPUnoyuXUQkomTS3S1YobcYuBnzWh4W52ewemcWcE0SusIwAhyTfCmWSsexkv8gdmD7CDsyZBR3YCXFKFa8PUd0fXQGy26NkhmTjilBNbZPfACckoEbsdh2ITSOFYRVelrwqXm7eDeqf0q6mqU7K3AfbPDpxFJre4D2Rojs64Hxdsl0hujryugbCF1YLg96sAI73QWNuS1EtiaOp1uywRXux15uSuDqrV/w4fMSlhgcKrGUGwvwxiR7RaASXwHPwu/sLu9/hzc6SJ+Fr3zDDmtZRyNmjLtsO4nP+25TjWGZ7DO1B8XrLikaJ2tE/sQsE8LVZPv0O6zfR7E94SZsly7DroQA/oyTSbeuu4BMvIgz8hXgRuyM0odVCpvjeC7bi0wWRfiLhirRPuTS0+BIHK1NvFX4UIu6qZkQk12R57G94FvswgFsBcBOgINACWbkEeB7jbnf45Itl64pwRzsAx7HbkgcVmJe3qr+NLy32zS2MsBfLx3npDPr2EH4Ka0af3hqwQrN24GX8cfT+XEy20TfkUF7Q9Gkif/CSvR4nCBx0TjApVX39fgL7kmn4mRRAhzVpGsT8DgPH8HK7wMBmXcTyLg7qqOaI+PYpAl7SXx50BDgAUsqP4i2NIFMAf6YvOlyGRuFbuwac2EETyH+rmwJ8JDafUQfUxdKd1b+J5lJchvYevz5/Jja65OQq9McVwxK8PdPWY39TGAJFipj2P+H/2ksJYspNYcccvif419n0QMyxj6lwgAAAABJRU5ErkJggg=="
+            class="mx-auto mb-2"
+          />Guêpes ou frelons
+        </div>
+        <div class="col-span-2">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEtElEQVRoge2ZXWwVVRDHf7T4BVjxgxIFlACaCqGAqEjEaCSxoGJUUBNMNPKAiYnhSeID+qKIL2rUqC9CtImiJBoVjB+JxgBWAyg2ogJB/IQgCi2WImLr+jD/9Wzvvbt79t67tzXyTzZnz+zMmZnds3NmzoHj+O/iCmAVsK2/DSkXpwEvAkHkOtVTthF4CGgHOiXbLzgB+FgGdAMdup/uITsZ+Jm+LyDQmDXHvVK+B2gCWtVfnCJ3IvC1eD8AZgJ/qN+Ql7FJ2CTlt6l/j/ovp8gtFF875hTAPtFGVt/MdHRJ+Vnqj1P/EHBygtwa8S2J0HaKdl71zYS6lOeD1R5VuxvYik2PeQlyzWo/itAOqR2axUBfpDmyV+3YCK1V7RLiEX7BPRFa6EguUyvNkTa1LRHaKsyoy4FrS8hMAE7XfVeEflDtuRltrApuxOb1LtxPC7Y2BMCOAvpw4Ac921kw1nLRH8zL2CQ8I+VfAWdE6MOwaRcA90foT4n2KcVh9g49W1lCTwOwDIty3cABYC0wtWIPgNHAMV0TSzy/VYb9CcyQMV1ALzClBP+l4t9aQJ8AfEvxwhkAh4FZFfrBfRpsTQLPavH8BNyp+00xvA1AD/AXMES0c7BIGGAL6DwsUIzC1qoA+I4Ks4F3NdCCBJ4G3Ap+VO1jCfzhAnslUA9sVL8N51yIwdhUC4BbspvvEL6pUtMqivNxq3YArEjgfQTn7DLc1zwzhv9u8az1troEDuOfG00C9ov/Eyx6lcIs8ezH/r1eYHbCuGPEf4DkTCIRoSO+KXsz8Ctuvo8rwTMI+Ab39Z7wGDecXo962lGEHRrgogwyTRG5DmB+CZ439HwbcIrHmDOwINGj+8x4Xgofzig3HHgb99ZbsQILYJFoXcCFMfIbIrKF1xcZbQGstA3f7IiMsnXAUlwNchBb0Y+ovzBBNho4Cq8PM9rxL8IQ/A7lxfKJFL/hZ1Nk3hLf7WXoi8UoXLn6JsWx3hc3AduBzcBJKbwPkB7Gy8J0bGoEMqZc1OOy4iQskK51FeiKRRMW9wMsYcwTzdLzeV4KduG30leKs6XnxyxCaYVVFFvUtiRyVY4OtXFpS8WYj72p7/FbyMrFMOk5kpeCOuBLKXkBSzfywGRcVZobpuEWtddxmwzVxFKN/1IOY/fBbGzzIazgngNuwDYVKp1yQ3DrVtJ2U9UwFluB/6Y4jdhQwbgrNcYW8pu6JTEJS6+jDq0vY5x64EnJd2LFWk0xCHhFBuzGZblZMA2Xj3UDc6tmXQaswGXIcWl5HGZi5y69GmMvcElVrfPEYhlwDLjag380cD1Wr2/HTcUe4Gniy+NcMQfb1gmAuzz436M4KHRi/8X4nGxMxRTgdxmz3FMmNH4j8DhwDX23WmuO8bg4vxr/EBk6MiAwBrfX9T7pBVIUA8aRkbgftI3shzUDwpFGbDc+3ID2qfIKMSAc2YzbhyonSbyAGjjiU1iFBU4btr3ji0ZsC6hd/bhd+pqhBbc/9Rt2mHMdFsGGYj/9COycYy528LMOV+MHwKv00/l6IabijgB8rx7gNeCqWhiYNVW+GLgZuAzLrcK0ohOrUX4BPsP+q/X0PdU9jv8V/gHUbWsnhbrLGgAAAABJRU5ErkJggg=="
+            class="mx-auto mb-2"
+          />Pigeons
+        </div>
+        <div class="col-span-2">
+          <img
+            src="data:image/png;base64,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"
+            class="mx-auto mb-2"
+          />Punaises de lit
         </div>
       </div>
     </section>
