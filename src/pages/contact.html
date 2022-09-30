@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../dist/output.css" rel="stylesheet" />
+    <link href="../../assets/styles/commons.css" rel="stylesheet" />
+    <title>Flovi nuisibles</title>
+    <script src="../../assets/js/header.js"></script>
+  </head>
+  <body>
+    <header-component></header-component>
+
+    <div class="container mx-auto">
+
+			<div class="grid grid-cols-12">
+				<div class="col-span-6 2xl:col-span-4 col-start-4 2xl:col-start-5">
+						<form
+							action="https://formspree.io/f/xgeqyver"
+							method="POST"
+							class="bg-white border rounded-md p-10"
+						>
+							<div class="flex flex-col">
+								<label> Votre email: </label>
+								<input type="email" name="email" />
+							</div>
+		
+							<div class="flex flex-col mb-4">
+								<label> Votre message: </label>
+								<textarea name="message"></textarea>
+							</div>
+		
+							<button class="bg-green-400 rounded-lg p-4 font-semibold text-lg type="submit"">
+								Envoyer
+							</button>
+						</form>
+					</div>
+			</div>
+		</div>
+  </body>
+</html>
